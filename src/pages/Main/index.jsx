@@ -30,7 +30,7 @@ const MainPage = () => {
                   </>
                 </Text>
                 <Button
-                  className="bg-gray_804  border-solid cursor-pointer flex items-center justify-center min-w-[212px] mt-[48px]  py-[16px] rounded-[4px] w-80"
+                  className="bg-[#0EB770]  border-solid cursor-pointer flex items-center justify-center min-w-[212px] mt-[48px]  py-[16px] rounded-[4px] w-80"
                   rightIcon={
                     <Img
                       src="images/img_arrowright.svg"
@@ -39,9 +39,14 @@ const MainPage = () => {
                     />
                   }
                 >
-                  <div className="font-inter font-medium sm:px-[20px] text-[16px] text-center text-white_A700 tracking-[-0.08px]">
+                  <a
+                    href="https://forms.gle/toJwzgmAvoJAA6oo9"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-inter font-medium sm:px-[20px] text-[16px] text-center text-white_A700 tracking-[-0.08px]"
+                  >
                     Get started
-                  </div>
+                  </a>
                 </Button>
               </div>
             </div>
@@ -63,39 +68,35 @@ const MainPage = () => {
                     <div className="flex flex-col gap-[40px] lg:gap-[71px] items-start justify-center  w-[auto]">
                       <div className="flex font-catamaran items-start justify-start  w-[auto]">
                         <Text
-                          className="font-bold leading-[30.00px] lg:leading-[70.00px] text-amber_300 text-left tracking-[0.45px]"
+                          className="font-bold leading-[30.00px] lg:leading-[80.00px] text-amber_300 text-left tracking-[0.45px]"
                           as="h3"
                           variant="h3"
                         >
-                          <>
-                            We’ve
-                            <br />
-                            cracked the code for teams
-                          </>
+                          Streamline Your Workflow with Codebeans
                         </Text>
                       </div>
                       <Text
                         className="font-inter font-medium leading-[31.00px] md:max-w-[100%] max-w-[339px] text-left text-white_A700 tracking-[-0.08px]"
                         variant="body4"
                       >
-                        The experience is almost like working in your office
-                        with your colleagues.
+                        Effortlessly Convert Your Designs to Tailwind CSS Code
+                        with Our User-Friendly Tool
                       </Text>
                     </div>
                     <div className="flex flex-col gap-[28px] items-start justify-start w-full">
                       <div class="flex items-start  justify-center  px-2 py-4 bg-white rounded-2xl w-full">
                         <p class="text-sm text-start font-semibold leading-loose text-gray-900">
-                          Stay connected all-time, full-time!
+                          Clean and consistent code
                         </p>
                       </div>
                       <div class="flex items-start  justify-center  px-2 py-4 bg-white rounded-2xl w-full">
                         <p class="text-sm text-start font-semibold leading-loose text-gray-900">
-                          Stay connected all-time, full-time! adwfs
+                          Proper flex layout
                         </p>
                       </div>{" "}
                       <div class="flex items-start  justify-center  px-2 py-4 bg-white rounded-2xl w-full">
                         <p class="text-sm text-start font-semibold leading-loose text-gray-900">
-                          Stay connected all-time, full-time!
+                          Easy to import assets
                         </p>
                       </div>
                       <Button className="bg-amber_300 border-[1px] border-amber_300 border-solid cursor-pointer font-semibold min-w-[114px] sm:px-[20px] px-[28px] py-[14px] rounded-[4px] text-[16px] text-black_901 text-center tracking-[-0.08px] w-[auto]">
@@ -119,15 +120,14 @@ const MainPage = () => {
                     as="h5"
                     variant="h5"
                   >
-                    Pay as you grow
+                    Sign Up Now for Free!
                   </Text>
                   <Text
                     className="font-inter font-medium leading-[31.00px] md:max-w-[100%] max-w-[673px] text-center text-white_A700 tracking-[-0.08px]"
                     variant="body4"
                   >
-                    Wish we could give the product for free, but good things
-                    come with a price tag. Our plan starts from $15 for 10 users
-                    and $2 per additional user.
+                    Sign up now for free and start converting your designs to
+                    Tailwind CSS code in just a few clicks!
                   </Text>
                   <Button
                     className="bg-white_A700 border-[1px] border-solid border-white_A700 cursor-pointer flex items-center justify-center min-w-[154px] px-[28px] py-[13px] rounded-[4px] w-[auto]"
@@ -139,9 +139,14 @@ const MainPage = () => {
                       />
                     }
                   >
-                    <div className="font-inter font-medium leading-[normal] sm:px-[20px] text-[16px] text-black_902 text-center">
-                      See plans
-                    </div>
+                    <a
+                      href="https://forms.gle/toJwzgmAvoJAA6oo9"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-inter font-medium leading-[normal] sm:px-[20px] text-[16px] text-black_902 text-center"
+                    >
+                      Explore{" "}
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -162,7 +167,7 @@ const MainPage = () => {
               <div className="flex flex-col lg:flex-row  py-2 gap-8 lg:gap-40  items-start justify-start px-[15px]  w-full">
                 <div className="flex flex-col gap-4  items-start justify-between   w-full">
                   <Img
-                    src="images/img_brutasklogoblacksvg.svg"
+                    src="images/img_coffeebeans1.svg"
                     className="h-[106px] w-[80px]"
                     alt="brutasklogoblac"
                   />
@@ -170,9 +175,8 @@ const MainPage = () => {
                     className="font-normal leading-[22.00px]  max-w-[368px] not-italic text-left text-white_A700_a2 tracking-[-0.08px]"
                     variant="body7"
                   >
-                    Brutask is the simplest to-do list for small remote teams,
-                    who want to increase efficiency by increasing individual
-                    productivity.
+                    Codebeans - the easy and efficient way to convert your
+                    designs to Tailwind CSS code.
                   </Text>
                 </div>
                 <div className="flex flex-col gap-[16px] items-start justify-center px-2 lg:px-[12px] py-[2px] w-full">
