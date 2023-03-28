@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 const Button = ({
@@ -10,11 +9,17 @@ const Button = ({
   ...restProps
 }) => {
   return (
-    <button className={`${className}`} {...restProps}>
+    <a
+      href="https://forms.gle/toJwzgmAvoJAA6oo9"
+      target="_blank"
+      rel="noreferrer"
+      className={`${className}`}
+      {...restProps}
+    >
       {!!leftIcon && leftIcon}
       {children}
       {!!rightIcon && rightIcon}
-    </button>
+    </a>
   );
 };
 
